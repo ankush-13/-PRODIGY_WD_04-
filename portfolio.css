@@ -1,1 +1,160 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #955252;
+    color: #171717;
+    
+
+header {
+    background: #5d2045;
+    color: #6cedd7;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f6eaea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #6f7a7f;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #345c98;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #4cae4c;
+}
+
+h2 {
+    margin: 20px 0;
+    text-align: center;
+    color: #251e1e;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #a9b849;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #690730;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.skills-chart {
+    margin: 20px 0;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #024e23;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #1a0b2b;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #8c2443;
+    color: #f4f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #4cae4c;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #745ab0;
+    color: #371515;
+    margin-top: 20px;
+}
+}
